@@ -6,19 +6,51 @@
 
 int main(){
   
-  float populacao, Area, PIB;
-  int numerosdepontosturisticos;// Área para definição das variáveis para armazenar as propriedades das cidades
+  char estado[2], codigoDaCarta[10], nomeDaCidade[50];
+  float area, pib;
+  int numerosdepontosturisticos, populacao;// Área para definição das variáveis para armazenar as propriedades das cidades
   
-  scanf("%f", &populacao);
-  scanf("%f", &Area);
-  scanf("%f", &PIB);
+  scanf("%s", &estado);
+  scanf("%d", &codigoDaCarta);
+  scanf("%s", &nomeDaCidade);
+  scanf("%d", &populacao);
+  scanf("%f", &area);
+  scanf("%f", &pib);
   scanf("%d", &numerosdepontosturisticos);// Área para entrada de dados
 
-  printf("populacao: 200.000.00 \n");
-  printf("Area: 300km² \n");
-  printf("PIB: 150.000.00 \n");
-  printf("Numero de pontos turisticos: 50 \n");// Área para exibição dos dados da cidade
+  printf("Estado: A \n");
+  printf("Código da carta: A01 \n");
+  printf("Nome da cidade: Rio de Janeiro \n");
+  printf("populacao: 6.000.000.00 \n");
+  printf("Area: 1.260km² \n");
+  printf("PIB: 1.000.000.000.000.00 \n");
+  printf("Numero de pontos turisticos: 39 \n");// Área para exibição dos dados da cidade
 
+}
+
+  int main(){
+
+    //Carta 2
+
+  char estado[2], codigoDaCarta[10], nomeDaCidade[50];
+  float area, pib;
+  int numerosDePontosTuristicos, populacao;// Área para definição das variáveis para armazenar as propriedades das cidades
+ 
+  scanf("%s", &estado);
+  scanf("%d", &codigoDaCarta);
+  scanf("%s", &nomeDaCidade);
+  scanf("%d", &populacao);
+  scanf("%f", &area);
+  scanf("%f", &pib);
+  scanf("%d", &numerosDePontosTuristicos);// Área para entrada de dados
+
+  printf("Estado: B \n");
+  printf("Código da carta: B01 \n");
+  printf("Nome da cidade: Sao paulo \n");
+  printf("populacao: 11.000.000.00 \n");
+  printf("Area: 1.523km² \n");
+  printf("PIB: 3.000.000.000.000.00 \n");
+  printf("Numero de pontos turisticos: 37 \n");// Área para exibição dos dados da cidade
 
 return 0;
 } 
